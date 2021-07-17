@@ -1,0 +1,18 @@
+    //First thing Instantiate Sequelize
+
+
+const Sequelize = require('sequelize')  // 1. Install and instanciate sequelize
+const db = new Sequelize ('db', 'username', 'pw', {   //creating a new sql database, 
+ 
+    dialect: 'sqlite',  //type of database were using
+    storage:'./myDB.sqlite'   //path where we want database to live
+})
+
+
+//Create Instances of Model
+
+
+class User extends Model{
+    
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "sequelize-beg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  }
+}
